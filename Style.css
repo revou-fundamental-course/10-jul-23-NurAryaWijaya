@@ -1,0 +1,58 @@
+﻿.utama {
+    display: flex;
+    flex-direction: row;
+}
+
+.div1 {
+    height: 800px;
+    width: 1500px;
+}
+
+.div2 {
+    height: 800px;
+    width: 1500px;
+}
+
+.kalkulator {
+    display: flex;
+    justify-content: flex-start;
+    flex-direction: column;
+    background-color: whitesmoke;
+    margin-left: 15px;
+    margin-right: 50px;
+}
+
+.tombol {
+    max-height: 150px;
+    max-width: 300px;
+    margin-block: 10px;
+    margin-left: 5px;
+    flex: auto;
+}
+#tombolSubmit {
+    height: 30px;
+    background-color: cornflowerblue;
+}
+
+#tombolReset {
+    height: 20px;
+    background-color: ghostwhite;
+}
+
+.kolomhasil {
+    background-color: whitesmoke;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+#kepala {
+    height: 10px;
+}
+#hasilOutput {
+    height: 20px;
+}
+#keterangan {
+    height:5px;
+}
